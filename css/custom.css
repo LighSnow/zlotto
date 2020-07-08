@@ -1,0 +1,814 @@
+.pricing-plans,
+.choose-lottery {
+  padding: 240px 0px 0px 0px;
+  position: relative;
+}
+
+.choose-lottery__inner,
+.pricing-plans__inner {
+  padding: 0px 0px 88px 0px;
+}
+
+.pricing-plans::before,
+.choose-lottery::before {
+  content: '';
+  width: 50%;
+  height: 348px;
+  background-image: url(../i/circles.svg);
+  background-repeat: repeat-x;
+  display: block;
+  position: absolute;
+  background-position: center;
+  z-index: -1;
+  top: 175px;
+  left: 0;
+}
+
+
+.pricing-plans__inner .main-2__subtitle,
+.choose-lottery__inner .main-2__subtitle {
+  margin: 0;
+}
+
+.pricing-plans__inner .main-2__subtitle>u,
+.choose-lottery__inner .main-2__subtitle>u {
+  position: relative;
+  display: inline-block;
+  vertical-align: baseline;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.pricing-plans__inner .main-2__subtitle>u:before,
+.choose-lottery__inner .main-2__subtitle>u:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -2px;
+  right: -3px;
+  bottom: 4px;
+  background: #006bbb;
+  height: 13px;
+  z-index: -1;
+}
+
+.choose-lottery .main-2__f {
+  margin-right: 0;
+}
+
+.choose-lottery .main-3__sl {
+  margin: 88px 0px 0px 0px;
+  ;
+}
+
+.choose-lottery .main-2__f-value {
+  width: 66.10%;
+  justify-content: flex-start;
+}
+
+.choose-lottery .main-2__f-item {
+  position: relative;
+}
+
+.choose-lottery .main-2__f-item.item-search,
+.pricing-plans .main-2__f-item.item-month {
+  max-width: 417px;
+  width: 100%;
+  flex: 0 1 417px;
+}
+
+.choose-lottery .main-2__f-item.item-country,
+.choose-lottery .main-2__f-item.item-region {
+  max-width: 330px;
+  width: 100%;
+  margin: 0px 0px 0px 28px;
+  flex: 0 1 330px;
+}
+
+
+
+.choose-lottery .main-2__f-item button {
+  position: absolute;
+  right: 28px;
+  top: 17px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.pricing-plans__items {
+  padding-top: 85px;
+  display: flex;
+  margin: 0 -15px;
+
+}
+
+.pricing-plans__column {
+  flex: 1 1 25%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.pricing-plans__item {
+  max-width: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-plans__item.active .paym__side {
+
+  border: 1px solid #297AFF;
+}
+
+.pricing-plans__item.active .pricing-plans__suptitle {
+  color: #297AFF;
+}
+
+.pricing-plans__suptitle {
+  font-size: 30px;
+  line-height: 35px;
+  color: #757575;
+}
+
+.pricing-plans .main-2__f-value {
+  display: none;
+}
+
+.pricing-plans__line {
+  margin: 20px 0 28px;
+  background-image: url(../i/pricing-plans-line.png);
+  width: 2px;
+  height: 30px;
+  background-position: center center;
+  background-size: contain;
+}
+
+
+.pricing-plans__item .paym__side {
+  float: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.pricing-plans__item .paym__price {
+  padding: 88px 35px 10px;
+}
+
+.pricing-plans__item .paym__price-text ul li {
+  position: relative;
+  padding: 0px 0px 0px 32px;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 10px 0;
+}
+
+.pricing-plans__item .paym__item-top {
+  font-size: 21px;
+}
+
+.pricing-plans__item .checkbox__input+i {
+  height: 30px;
+  width: 30px;
+  padding: 6px 0px 0px 0px;
+}
+
+.pricing-plans__item .checkbox__input+i::after {
+  font-size: 15px;
+}
+
+.pricing-plans__item.active .paym__month {
+  background-color: #297AFF;
+}
+
+.paym__month {
+  width: 270px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 21px;
+  font-size: 30px;
+  line-height: 35px;
+  color: #fff;
+  left: 0;
+  z-index: -3;
+  background-color: #464646;
+}
+
+.paym__month::after {
+  content: '';
+  position: absolute;
+  right: -21px;
+  top: -2px;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: #272727;
+  height: 50px;
+  width: 30px;
+  z-index: -2;
+}
+
+.pricing-plans__item .paym__price-text ul li::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #297aff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.pricing-plans .paym__item-check-l {
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 259px;
+  width: 100%;
+}
+
+.pricing-plans__btn {
+  width: 100%;
+  padding: 0 35px;
+}
+
+a.btn-price {
+  width: 100%;
+  margin: 40px auto 0;
+  font-size: 24px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.pricing-plans__text {
+  width: 100%;
+  margin: 119px 0 108px;
+  position: relative;
+}
+
+.pricing-plans__text::after {
+  content: '';
+  width: 50%;
+  height: 348px;
+  background-image: url(../i/circles.svg);
+  background-repeat: repeat-x;
+  display: block;
+  position: absolute;
+  background-position: center;
+  z-index: -1;
+  bottom: 195px;
+  right: 0px;
+}
+
+.pricing-plans__text h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0px 0px 40px 0px;
+}
+
+.pricing-plans__text p {
+  font-size: 20px;
+  line-height: 31px;
+  margin: 0px 0px 32px 0px;
+}
+
+.pricing-plans__text p:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.pricing-plans__footer {
+  /* height: 457px; */
+  position: relative;
+  background-color: #222;
+  padding: 0px 0px 90px 0px;
+}
+
+.pricing-plans__footer .pricing-plans__line {
+  margin: 0 auto;
+  background-image: url(../i/pricing-plans-footer-line.png);
+  width: 2px;
+  height: 116px;
+  background-position: center center;
+  background-size: contain;
+}
+
+
+
+.pricing-plans__footer .how-end__wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pricing-plans__footer::after {
+  content: '';
+  width: 100%;
+  height: 348px;
+  background-image: url(../i/circles.svg);
+  background-repeat: repeat-x;
+  display: block;
+  position: absolute;
+  background-position: center;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pricing-plans__footer .how-end__tc {
+  margin-top: 20px;
+}
+
+
+.pricing-plans__footer a.how-end__btn {
+  height: 64px;
+  line-height: 64px;
+}
+
+/* 
+@media screen and (max-width: 1600px) {
+  .pricing-plans__items {
+    flex-wrap: wrap;
+  }
+
+  .pricing-plans__column {
+    flex: 1 1 50%;
+  }
+} */
+
+.select_wrap {
+  position: relative;
+}
+
+.default_option {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 51px;
+  line-height: 49px;
+  cursor: pointer;
+  border: 1px solid #505050;
+  border-radius: 50px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 18px;
+}
+
+.default_option .option {
+  position: relative;
+  margin: 0 30px 0 31px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.select_ul {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  border: 0;
+  display: none;
+  z-index: 999999;
+  max-height: 270px;
+  overflow: auto;
+  background: #272727;
+  box-sizing: border-box;
+  border: 1px solid #505050;
+  border-top: 0;
+  padding: 15px 0 13px;
+}
+
+.select_wrap.active .select_ul {
+  display: block;
+}
+
+
+.select_wrap.active .default_option {
+  background: #272727;
+  border-radius: 25px 25px 0 0;
+  border-bottom: 0;
+}
+
+.select_wrap.active .ui-selectmenu-icon {
+  z-index: 10;
+}
+
+.select_wrap.active .ui-selectmenu-icon {
+  transform: rotate(-180deg);
+}
+
+.select_ul .option {
+  position: relative;
+  margin: 0 0 22px 0;
+  padding: 0;
+}
+
+.select_ul .option p {
+  padding: 0px 10px 0px 31px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+
+
+.choose-lottery .choose-lottery__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.choose-lottery__item {
+  padding: 0 15px;
+  flex: 1 1 33%;
+}
+
+.choose-lottery .main-3__lot-item,
+.pricing-plans .main-3__lot-item {
+  width: 100%;
+  margin: 0px 0px 31px 0px;
+}
+
+.choose-lottery .main-3__bot {
+  max-width: 100%;
+  margin: 70px 0px 0px 0px;
+}
+
+.pricing-plans .main-3__bot {
+  display: none;
+  margin: 10px 0px 0px 0px;
+}
+
+.choose-lottery .main-3__bt,
+.pricing-plans .main-3__bt {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+a.btn-show {
+  max-width: 260px;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #297aff;
+}
+
+
+.choose-lottery .lot-item__price-i {
+  max-width: 105px;
+  width: 100%;
+}
+
+
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 172px;
+  right: 0;
+  left: 0;
+}
+
+.preloader__image {
+  height: 30px;
+  width: 30px;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+
+
+body.loading {
+  overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+ modal element will be visible */
+body.loading .preloader {
+  display: flex;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+  .paym__month {
+    width: 195px;
+  }
+
+  .pricing-plans__item .paym__price-text ul li {
+    line-height: 18px;
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+  .pricing-plans__suptitle {
+    font-size: 24px;
+  }
+
+  .pricing-plans__items {
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+
+  .pricing-plans__column {
+    /* flex: 1 1 50%; */
+    /* margin-bottom: 50px; */
+    padding: 0 10px;
+  }
+
+  .pricing-plans__item {
+    max-width: inherit;
+  }
+
+  .pricing-plans__item .paym__price-text ul li {
+    /* line-height: 26px; */
+    font-size: 14px;
+  }
+
+  .paym__item {
+    padding: 30px 20px 33px;
+  }
+
+  .pricing-plans__item .paym__item-top {
+    font-size: 18px;
+  }
+
+  .pricing-plans .paym__item-check-l {
+    font-size: 13px;
+  }
+
+  .pricing-plans__btn {
+    padding: 0 20px;
+  }
+
+  .paym__month {
+    width: 170px;
+    font-size: 22px;
+    height: 35px;
+  }
+
+  .paym__month::after {
+    height: 38px;
+  }
+
+  .pricing-plans__item .paym__price {
+    padding: 75px 20px 10px;
+  }
+
+  .paym__price-new {
+    font-size: 52px;
+  }
+
+  .choose-lottery .lot-item__logo {
+    width: 140px;
+  }
+
+  .choose-lottery .lot-item__entry {
+    padding: 0px 0px 0px 20px;
+  }
+
+  .choose-lottery .lot-item__inn {
+    padding: 0 15px 0 140px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .choose-lottery .lot-item__inn {
+    padding: 0 15px 0 110px;
+  }
+
+  .choose-lottery .lot-item__logo {
+    width: 110px;
+  }
+
+  .choose-lottery .lot-item__entry {
+    padding: 0px 0px 0px 15px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .pricing-plans__column {
+    flex: 1 1 50%;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-width: 1025px) {
+  .choose-lottery .main-2__f {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pricing-plans .main-2__f-value,
+  .choose-lottery .main-2__f-value {
+    width: 100%;
+    margin: 60px 0px 0px 0px;
+  }
+
+  .choose-lottery .main-3__sl {
+    margin: 60px 0px 0px 0px;
+  }
+
+  .pricing-plans::before,
+  .choose-lottery::before {
+    width: 100%;
+  }
+
+  .paym__month {
+    width: 270px;
+  }
+
+  .choose-lottery__item {
+    flex: 1 1 50%;
+  }
+
+  .choose-lottery .lot-item__logo {
+    width: 115px;
+  }
+
+  .choose-lottery .lot-item__inn {
+    padding: 0 15px 0 115px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .preloader {
+    bottom: 148px;
+  }
+
+  .choose-lottery.paym,
+  .pricing-plans.paym {
+    padding: 113px 0 0 0;
+  }
+
+  .pricing-plans::before,
+  .choose-lottery::before {
+    top: 100px;
+  }
+
+  .choose-lottery .main-3__lot-item {
+    margin: 0px 0px 24px 0px;
+  }
+
+  .choose-lottery .main-3__bot {
+    max-width: 100%;
+    margin: 36px 0px 0px 0px;
+  }
+
+  .choose-lottery__inner {
+    padding: 0px 0px 80px 0px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 780px) {
+  .pricing-plans__item .paym__price-text ul li {
+    line-height: 18px;
+  }
+
+  .paym__month {
+    width: 195px;
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .pricing-plans .main-3__bot {
+    display: block;
+  }
+
+  .moreBox {
+    display: none;
+  }
+
+  .pricing-plans__column.tab-item.active-tab {
+    display: flex;
+  }
+
+  .pricing-plans .main-2__f-value {
+    display: block;
+  }
+
+  .pricing-plans__items {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .choose-lottery .main-2__f-value {
+    flex-direction: column;
+  }
+
+  .choose-lottery .main-2__f-item.item-search,
+  .pricing-plans .main-2__f-item.item-month {
+    max-width: 100%;
+    flex: 1;
+  }
+
+
+  .choose-lottery .main-2__f-item.item-country,
+  .choose-lottery .main-2__f-item.item-region {
+    margin: 0px 0px 20px 0px;
+    max-width: 100%;
+    flex: 0;
+  }
+
+  .choose-lottery .main-2__f-item.item-region {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .choose-lottery .main-2__f-item {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .pricing-plans__inner .main-2__subtitle>u:before,
+  .choose-lottery__inner .main-2__subtitle>u:before {
+    display: none;
+  }
+
+  .choose-lottery .choose-lottery__list {
+    margin: 0;
+  }
+
+  .choose-lottery__item {
+    padding: 0;
+  }
+
+  .pricing-plans__items {
+    margin: 0;
+  }
+
+  .pricing-plans__column {
+    flex: 1 1 100%;
+    padding: 0;
+  }
+
+  .pricing-plans__item .paym__price-text ul li {
+    line-height: 26px;
+  }
+
+  .pricing-plans__text {
+    display: none;
+  }
+
+  .choose-lottery__item {
+    flex: 1 1 100%;
+  }
+
+}
+
+@media screen and (max-width: 388px) {
+  .lot-item__price-i {
+    width: auto;
+  }
+
+  .pricing-plans__item .paym__price-text ul li {
+    line-height: 18px;
+  }
+}
